@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin : 0;
+    bottom : 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing   : border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing        : border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height                  : 100%;
+    width                   : 100%;
+    font-size               : 1;
+    font-size               : 14px;
+    -ms-text-size-adjust    : 100%;
+    -moz-text-size-adjust   : 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border : 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size  : inherit;
+    font-weight: 400;
+}
+
+body {
+    width           : 100%;
+    background-color: #e8e8e8;
+}
+
+.header {
+    width     : 100%;
+    max-width : 1190px;
+    text-align: center;
+    margin    : 168px auto 0;
+}
+
+.header__travel {
+    opacity       : 0.6;
+    font-family   : Arial, Helvetica, sans-serif;
+    font-weight   : 500;
+    font-stretch  : normal;
+    font-style    : normal;
+    letter-spacing: 2.8px;
+    color         : rgba(39, 61, 70, 0.6);
+    text-transform: uppercase;
+}
+
+.header__description {
+    margin        : 20px auto 77px;
+    width         : 721px;
+    font-family   : TimesNewRomanPSMT;
+    opacity       : 0.9;
+    font-size     : 34px;
+    font-weight   : 500;
+    font-stretch  : normal;
+    font-style    : normal;
+    line-height   : 1.39;
+    letter-spacing: normal;
+    color         : #273d46;
+}
+
+.wall-image {
+    background: url('../img/light-man-copy.png');
+    margin    : 0 auto 93px;
+    height    : 561px;
+    width     : 841px;
+    box-shadow: 0px 15px 65px 0 rgba(15, 16, 16, 0.15);
+    border    : solid 10px #ffffff;
+}
+
+.main-container {
+    width : 736px;
+    margin: 0 auto;
+}
+
+.main-container__text {
+    width         : 736px;
+    margin        : 0 auto 64px;
+    opacity       : 0.8;
+    font-family   : 'Times New Roman', Times, serif;
+    font-size     : 24px;
+    font-weight   : 500;
+    font-stretch  : normal;
+    font-style    : normal;
+    line-height   : 1.67;
+    letter-spacing: normal;
+    text-align    : left;
+    color         : rgba(39, 61, 70, 0.8);
+}
+
+.main__list {
+    font-family   : Arial, Helvetica, sans-serif;
+    font-size     : 20px;
+    font-weight   : normal;
+    font-stretch  : normal;
+    font-style    : normal;
+    line-height   : 1.8;
+    letter-spacing: normal;
+    margin        : 0 auto 55px;
+}
+
+.main-container__list-item1 {
+    color      : #273d46;
+    text-shadow: 0px 1px 0 rgba(0, 0, 0, 0.3);
+    font-weight: 500;
+}
+
+.main-container__list-item2 {
+    color     : #80b7b3;
+    font-style: italic;
+}
+
+.main-container__list-item3 {
+    color      : #273d46;
+    font-weight: 600;
+    text-shadow: 0px 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.main-container__list-item4 {
+    font-weight    : 600;
+    color          : rgba(39, 61, 70, 0.3);
+    text-decoration: line-through;
+    opacity        : 0.3;
+}
+
+.item-icon {
+    background: url('../img/check-icon.png') left 8px no-repeat;
+    padding   : 0 0 0 35px;
+    opacity   : 1;
+}
+
+.btn {
+    margin        : 0 0 137px 0;
+    width         : 199px;
+    height        : 44px;
+    border-radius : 30px;
+    padding       : 15px 27px 15px 30px;
+    box-shadow    : 0px 6px 40px 0 rgba(128, 183, 179, 0.54);
+    text-transform: uppercase;
+    background: url('../img/shape-2.svg') 152px 15px no-repeat; 
+    background-color: rgba(128, 183, 179);
+    border          : none;
+   
+}
+
+.btn--text {
+    color         : #fff;
+    padding-left  : 0;
+    font-family   : Arial, Helvetica, sans-serif;
+    letter-spacing: 2.8px;
+}
+
+.btn:hover {
+    background-color: rgb(52, 136, 130);
+    transition: 0.2s linear;
+}
